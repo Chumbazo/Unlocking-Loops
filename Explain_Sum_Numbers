@@ -1,0 +1,9 @@
+sumNumbers is a function that takes one input, "looper".
+
+In that function, we declare a variable whose scope is just the function, that is named "addNumbers" and it act as an accumulator, and its initial value is zero.
+
+Next, we loop through each index of the looper array, i.e. each bin on the shelf, starting at bin zero.
+
+At each iteration of the loop, we add the value in the looper array to the current value of addNumbers and assign the result of that addition back to addNumbers.  This make addNumber's value change with each iteration of the loop.
+
+After the loop, the function returns the ending value of addNumbers.
